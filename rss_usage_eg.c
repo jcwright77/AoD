@@ -1,6 +1,6 @@
 //This C code example demonstrates allocated memory going from virtual to resident (VSZ to RSS)
 //From Ciro Sintilli's answer on StackOverflow August 11, 2019 : https://stackoverflow.com/questions/7880784/what-is-rss-and-vsz-in-linux-memory-management
-//gcc -ggdb3 -O0 -std=c99 -Wall -Wextra -pedantic -o main.out rss_usage_eg.c 
+//gcc -ggdb3 -O0 -std=c99 -Wall -Wextra -pedantic -o rss_usage_eg rss_usage_eg.c 
 //./main.out
 #define _XOPEN_SOURCE 700
 #include <stdio.h>
