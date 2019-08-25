@@ -12,7 +12,7 @@ int main (void) {
     /* 16GiB + 1. */
     unsigned long malloc_size = (1ul << 34) + 1;
     unsigned long i = 0;
-    base = malloc(malloc_size);
+    base = (char*) malloc(malloc_size);
     if (base == NULL) {
         perror("malloc");
         exit(1);
